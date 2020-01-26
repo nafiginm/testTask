@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header__logo">
+        <div class="header__logo-img">
+          <img src="#" alt="Logo">
+        </div>
+        <div class="header__logo-info">
+          <h1 class="header__logo-title">Название<br>компании</h1>
+          <p class="header__logo-description">самая клевая компания</p>
+        </div>
+      </div>
+      <div class="header__contacts">
+        <ul class="header__contacts-phone">
+          <li>+7(499) 777-77-77</li>
+          <li>+7(499) 777-77-77</li>
+          <li class="header__contacts-feedback"><a href="#openModal">Обратная связь</a></li class="header__contacts-feedback">
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div id="openModal" class="modal">
+    <div class="modal__dialog">
+      <h6 class="modal__dialog-title">Обратная связь</h6>
+      <form action="#" class="modal__form">
+        <label for="name">Ваше имя *</label>
+        <input type="text" id="name" required>
+        <label for="phone">Телефон *</label>
+        <input type="tel" id="phone" required>
+        <label for="email">Email *</label>
+        <input type="email" id="email" required>
+        <label for="message">Сообщение</label>
+        <textarea id="message" cols="53" rows="5"></textarea>
+        <input type="submit" value="отправить">
+      </form>
+      <a href="#close" title="Close" class="close">×</a>
+    </div>
+  </div>
+
+  <nav>
+    <div class="container">
+      <ul class="nav__menu">
+        <li><a class="nav__menu-item" href="#">Главная</a></li>
+        <li><a class="nav__menu-item" href="#">Каталог</a></li>
+        <li><a class="nav__menu-item" href="#">Доставка и оплата</a></li>
+        <li><a class="nav__menu-item" href="#">Прайс-лист</a></li>
+        <li><a class="nav__menu-item" href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="slider">
+    <img src="./img/slide-1.png" alt="image01"/>
+    <img src="./img/slide2.png" alt="image02"/>
+    <div class="container">
+      <a href="#"><span class="slider__arrow-left"></span></a>
+      <a href="#"><span class="slider__arrow-right"></span></a>
+    </div>
+  </div>
+
+  <div class="content">
+    <ul class="content__menu">
+      <li><a class="content__menu-item active" href="#">Главная</a><span>/</span></li>
+      <li><a class="content__menu-item active" href="#">Каталог</a><span>/</span></li>
+      <li><a class="content__menu-item" href="#">Бытовая техника</a></li>
+    </ul>
+    <div class="container">
+      <aside>
+        <ul class="aside__list">
+          <li><a href="#">Автомобили</a></li>
+          <li><a href="#" class="active">Бытовая техника</a>
+            <ul class="aside__item-list">
+              <li><a href="#" class="active">Микроволновки</a></li>
+              <li><a href="#">Холодильники</a></li>
+              <li><a href="#">Посудомоечные машины</a></li>
+              <li><a href="#">Чайники</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Мобильная техника</a></li>
+          <li><a href="#">Компьютеры</a></li>
+          <li><a href="#">Одежда</a></li>
+          <li><a href="#">Недвижимость</a></li>
+        </ul>
+        <div class="aside__price">
+          <img src="./img/ms-excel.png" alt="Price">
+          <p><a href="#">Прайс-лист</a></p>
+        </div>
+      </aside>
+      <article>
+        <div class="content__article">
+          <div class="article__card">
+            <img src="./img/product.png" alt="Микроволновка">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <div class="article__card-price">
+              <span>1 990 р.</span>
+              <img src="./img/addtobasket.png" alt="Icon">
+            </div>
+          </div>
+          <div class="article__card">
+            <img src="./img/product.png" alt="Микроволновка">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <div class="article__card-price">
+              <span>1 990 р.</span>
+              <img src="./img/addtobasket.png" alt="Icon">
+            </div>
+          </div>
+          <div class="article__card">
+            <img src="./img/product.png" alt="Микроволновка">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <div class="article__card-price">
+              <span>1 990 р.</span>
+              <img src="./img/addtobasket.png" alt="Icon">
+            </div>
+          </div>
+          <div class="article__card">
+            <img src="./img/product.png" alt="Микроволновка">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <div class="article__card-price">
+              <span>1 990 р.</span>
+              <img src="./img/addtobasket.png" alt="Icon">
+            </div>
+          </div>
+          <div class="article__card">
+            <img src="./img/product.png" alt="Микроволновка">
+            <p>Самый клевый чайник, который надо купить!</p>
+            <div class="article__card-price">
+              <span>1 990 р.</span>
+              <img src="./img/addtobasket.png" alt="Icon">
+            </div>
+          </div>
+        </div>
+        <div class="article__pagination">
+          <p><a href="#">1</a></p>
+          <p><a href="#">2</a></p>
+          <p><a href="#" class="active">3</a></p>
+          <p><a href="#">4</a></p>
+          <p><a href="#">5</a></p>
+          <p><a href="#">6</a></p>
+          <p><a href="#">7</a></p>
+        </div>
+        <div class="article__description">
+          <p>
+            Компания &#171;Пиксель Плюс&#187; существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде. Характерные для этого жанра мотивы: неразделенной любви, ухода молодости, угасания души.
+          </p>
+          <p>
+            Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данный момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer__description footer__info">
+        <p class="footer__description-item">&#169; 2012-2013 ЗАО &#171;Компания&#187;</p>
+        <p class="footer__description-item footer__info-item"><a href="#">info@name.ru</a></p>
+      </div>
+      <ul class="footer__menu">
+        <li><a class="footer__menu-item" href="#">Главная</a></li>
+        <li><a class="footer__menu-item" href="#">Каталог</a></li>
+        <li><a class="footer__menu-item" href="#">Доставка и оплата</a></li>
+        <li><a class="footer__menu-item" href="#">Прайс-лист</a></li>
+        <li><a class="footer__menu-item" href="#">Контакты</a></li>
+      </ul>
+      <div class="footer__description">
+        <img src="./img/company.png" alt="Logo company">
+        <div class="footer__description-list">
+          <p class="footer__description-item"><a href="#">Разработка сайта </a><span>&#8212;</span></p>
+          <p class="footer__description-item">компания &#171;Пиксель Плюс&#187;</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
